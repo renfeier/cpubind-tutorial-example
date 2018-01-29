@@ -1,0 +1,27 @@
+<?xml version="1.0"?> 
+<opencv_storage> 
+    <gpu_card_nums>16</gpu_card_nums>
+    <numa_node_nums>2</numa_node_nums>
+    <cpulist_node0>
+        0 1 2 3 4 5 6 7 8 9 10 11 12 13 28 29 30 31 32 33 34 35 36 37 38 39 40 41</node0_cpulist>
+    <cpulist_node1>
+        14 15 16 17 18 19 20 21 22 23 24 25 26 27 42 43 44 45 46 47 48 49 50 51 52 53 54 55</node1_cpulist>
+    <map_gpu_to_node>
+        <gpuCard0>node0</gpuCard0>
+        <gpuCard1>node0</gpuCard1>
+        <gpuCard2>node0</gpuCard2>
+        <gpuCard3>node0</gpuCard3>
+        <gpuCard4>node0</gpuCard4>
+        <gpuCard5>node0</gpuCard5>
+        <gpuCard6>node0</gpuCard6>
+        <gpuCard7>node0</gpuCard7>
+        <gpuCard8>node1</gpuCard8>
+        <gpuCard9>node1</gpuCard9>
+        <gpuCard10>node1</gpuCard10>
+        <gpuCard11>node1</gpuCard11>
+        <gpuCard12>node1</gpuCard12>
+        <gpuCard13>node1</gpuCard13>
+        <gpuCard14>node1</gpuCard14>
+        <gpuCard15>node1</gpuCard15>
+    </map_gpu_to_node>
+</opencv_storage>
