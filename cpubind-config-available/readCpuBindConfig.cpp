@@ -2,10 +2,7 @@
 #include "readCpuBindConfig.hpp"
 #include "glog/logging.h"
 
-namespace sensetime
-{
-    namespace SAF
-    {
+
     	CpuBindConfig::CpuBindConfig(const std::string &configPath)
     	{
     		readConfig(configPath);
@@ -45,7 +42,4 @@ namespace sensetime
             }
             return true;
 		}
-
-    } // namespace SAF
-} // namespace sensetime
 
