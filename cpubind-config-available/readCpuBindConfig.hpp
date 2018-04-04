@@ -1,13 +1,8 @@
-#ifndef  SENSETIME_SAF_READ_CPUBIND_CONFIG_H
-#define  SENSETIME_SAF_READ_CPUBIND_CONFIG_H
+#ifndef  READ_CPUBIND_CONFIG_H
+#define  READ_CPUBIND_CONFIG_H
 
 #include <map>
 #include <string>
-
-namespace sensetime
-{
-    namespace SAF
-    {
 
         class CpuBindConfig
 		{
@@ -22,7 +17,6 @@ namespace sensetime
 				CpuBindConfig(const std::string &configPath);
 				bool readConfig(const std::string &configPath);
 		};
-    } // namespace SAF
-} // namespace sensetime
+  
 
-#endif // SENSETIME_SAF_READ_CPUBIND_CONFIG_H
+#endif // READ_CPUBIND_CONFIG_H
